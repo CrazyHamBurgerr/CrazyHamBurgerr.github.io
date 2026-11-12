@@ -1,0 +1,128 @@
+body{
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color:purple;
+    font-family:'Trebuchet MS';
+}
+
+p{
+    color:steelblue;
+    padding: 20px;
+}
+
+button{
+    background-color:green;
+    display:block;
+    border-radius: 10px;
+    border-color: beige;
+}
+button:hover{
+    background-color:lawngreen;
+}
+button:active{
+    border-radius: 30px;
+    border-color: green;
+}
+
+a{
+    color:blueviolet;
+    font-style: italic;
+}
+a:hover{
+    font-weight: bolder;
+}
+
+#about{
+    margin:30px;
+    .bi-chevron-right{
+    border:4px;
+    border-style: dashed;
+    border-color: beige;
+    }
+    li{
+        border-bottom: 2px;
+        border-bottom-style: dashed;
+        border-bottom-color:palegoldenrod;
+    }
+}
+#resume{
+    padding: 50px;
+    border-style: dotted;
+    border-radius: 50px;
+    border-color: bisque;
+}
+
+#portfolio{
+    margin:30px;
+    padding:20px;
+    border-style: solid;
+    border: 30px;
+    border-radius: 30px;
+    border-color: bisque;
+    background-color: beige;
+}
+
+#scroll-top{
+    background-color: lightskyblue;
+}
+#scroll-top:hover{
+    background-color: aqua;
+    border-style: groove;
+    border-color: lightskyblue;
+}
+
+.navmenu a{
+    color:darkturquoise;
+    max-width: 56px;
+    ul{
+        list-style-type: none;
+    }
+}
+
+.navmenu a:hover,
+.navmenu .active,
+.navmenu .active:focus,
+.navmenu li:hover>a {
+    color: white;
+    background: aqua;
+    border-radius: 10px;
+}
+.navmenu a:hover,
+.navmenu li:hover>a {
+    max-width: 100%;
+    color: white;
+}
+
+#fake{
+    border-style: dashed;
+    border-radius: 40px;
+    border-color: beige;
+}
+
+ul li li{
+    line-height: 90%;
+    list-style-type: square;
+}
+
+ol {
+    list-style:lower-roman;
+    border-style: dotted;
+    border-radius: 40px;
+    border-color: beige;
+}
+
+tr:nth-child(even) {
+ background-color: #eeeeee;
+}
+th{
+    background-color: lightgreen;
+}
+
+table, td, th{
+    padding: 10px;
+    border: 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+}
